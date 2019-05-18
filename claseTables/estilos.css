@@ -1,0 +1,9 @@
+.tablaRectangularConHead table{
+    border-collapse: collapse;
+    
+}
+
+.tablaRectangularConHead td , .tablaRectangularConHead th {
+    padding: 15px;
+    border:1px red solid;
+}

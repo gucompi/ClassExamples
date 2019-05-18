@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en">
+  <title>Clase 4 - Formularios HTML</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+    <form action="./manejodatos.html" method="GET">
+        <label for="nick"> Nick:</label><input type="text" id="nick" name="nick" tabindex="1" placeholder="Coloca aca tu nombre de usuario papá" > <br><br>
+        Contraseña:   <input type="password" name="psw" tabindex="3"> <br><br>
+        Nombre:   <input type="text"  name="nombre" value="Gustavo" tabindex="2"> <br><br>
+        Apellido:   <input type="text" name="apellido"><br><br>
+        Dni:  <input type="number" name="dni"><br><br>
+        <label >Mail:    <input type="email" name="email"></label><br><br>
+        Genero:
+        <label for="masc">Masculino -</label><input type="radio" id="masc" name="genero"> 
+        <label for="fem">Femenino -</label><input type="radio"  id="fem" name="genero">
+                <br> <br>
+                <label for="isJubilado">Jubilado?</label> <input type="checkbox" id="isJubilado" name="isJubilado"> <br><br>
+
+
+        <select name="provincia" >
+            <option value="BA"> Buenos Aires</option>
+            <option value="Cor"> Cordoba </option>
+            <option value="Cor"> Cordoba </option>
+            <option value="Cor" selected> Cordoba </option>
+            <option value="Cor"> Cordoba </option>
+            <option value="Cor"> Cordoba </option>
+            <option value="Cor"> Cordoba </option>
+            <option value="Cor"> Cordoba </option>
+        </select><br><br>
+
+        <textarea  name="campoLibre">
+            
+        </textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar!">
+
+    </form>
+</body>
+</html>

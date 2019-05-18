@@ -1,0 +1,73 @@
+.listaOrdenadaContedor{
+    width: 300px;
+    
+    margin-top:0;
+    display:inline;
+}
+.listaOrdenadaContedor ul {
+    list-style: none;
+    padding-left: 0;
+}
+body {
+    margin:0px;
+}
+.listaOrdenadaContedor ul li {
+    width: 33%;
+    display:inline;
+    float: left;
+    text-align: center;
+    font-size:19px;
+    background-color: #e91e63
+}
+.listaOrdenadaContedor ul li:hover {
+background-color: blueviolet;
+cursor:pointer;
+}
+
+.listaOrdenadaContedor a:link {
+    color:white;
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+}
+
+.listaOrdenadaContedor a:visited {
+    color:white;
+    font-family: 'Trebuchet MS';
+
+}
+
+.listaOrdenadaContedor a:hover {
+    color:pink;
+    font-family: 'Trebuchet MS';
+    
+}
+
+.bloqueContenedor{
+    width: 100%;
+    margin-top:40px;
+    display: inline-block;
+    position: relative;
+}
+.bloque{
+    width: 30%;
+    min-width: 100px;
+    height: 50px;
+    margin-right: 3%;
+    background-color: red;
+
+ 
+}
+#verde{
+    background-color: green;
+    position: relative;
+    top: -50px;
+    left: 33%;
+}
+
+#azul{
+    background-color: blue;
+    position: relative;
+    top: -100px;
+    left: 66%;
+    
+}

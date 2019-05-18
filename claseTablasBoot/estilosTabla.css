@@ -1,0 +1,26 @@
+/*tbody tr:nth-child(odd) {
+    background-color:#cecece
+}
+tbody tr:nth-child(even){
+    background-color: #7a7373
+}*/
+
+tbody tr:nth-child(3n) {
+    background-color:#cecece
+}
+tbody tr:nth-child(3n+1){
+    background-color: #7a7373
+}
+
+tbody tr:nth-child(3n+2){
+    background-color: pink
+}
+
+
+
+table, td, tr, th{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+

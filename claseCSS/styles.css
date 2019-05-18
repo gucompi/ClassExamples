@@ -1,0 +1,49 @@
+/*
+selector{
+    propiedad:valor;
+    propiedad:valor;
+}
+*/
+
+* {
+    font-size:5px;
+
+}
+
+.clase1 p {
+    color:red!important;
+}
+.clase1 {
+    border-width: 10px;
+    border-style:solid;
+    border-color:red;
+    padding:2px;
+    margin:2px;
+}
+p a {
+    font-size: 20px
+}
+p a:link{
+    text-decoration: none;
+    color:black;
+    cursor: default;
+}
+
+p a:visited{
+    color:orange;
+}
+p a:hover{
+    background-color:blue;
+}
+p:active{
+    background-color: red
+}
+
+
+
+
+
+
+
+
+
